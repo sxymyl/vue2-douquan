@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>prl</title>
+    <script>
+       var num=window.devicePixelRatio;
+       var bili=1/num;
+       var meta=document.createElement('meta');
+       meta.name= 'viewport';
+       meta.content='width=device-width, user-scalable=no, initial-scale=1 ,    maximum-scale=1 minimum-scale==1';
+       document.head.appendChild(meta);
+       var wid=document.documentElement.clientWidth/10;
+       document.documentElement.style.fontSize=wid+'px';
+  </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
